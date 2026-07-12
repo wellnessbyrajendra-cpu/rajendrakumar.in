@@ -276,13 +276,14 @@ nav ul li{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap:40px;
 }
 
 .about-card{
     width: 100%;
     display: flex;
     justify-content: center;
-    gap:40px;
+    
 }
 .about-card .cards{
     width:100%;
