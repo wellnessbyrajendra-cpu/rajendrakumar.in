@@ -282,6 +282,7 @@ nav ul li{
     width: 100%;
     display: flex;
     justify-content: center;
+    gap:40px;
 }
 .about-card .cards{
     width:100%;
