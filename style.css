@@ -312,6 +312,16 @@ nav ul li{
     width:90%;
     margin:0 auto;
 }
+   .profile-image img{
+    width:220px !important;
+    height:220px !important;
+    max-width:220px !important;
+    max-height:220px !important;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:0 auto;
+}
 
 footer{
     background:#0A2540;
