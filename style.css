@@ -1,4 +1,5 @@
-/* ===========================
+/* 
+}===========================
    Rajendra Kumar Website
 =========================== */
 
@@ -220,10 +221,10 @@ nav ul li{
 }
 
 .profile-image img{
-    width:220px !important;
-    height:220px !important;
-    max-width:220px !important;
-    max-height:220px !important;
+    width:220px;
+    height:220px;
+    max-width:220px;
+    max-height:220px;
     border-radius:50%;
     object-fit:cover;
     display:block;
