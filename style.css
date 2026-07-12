@@ -100,7 +100,15 @@ nav ul li a:hover{
 .btn:hover{
     background:white;
     transform:scale(1.05);
-}.container{
+}
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+.container{
     width:90%;
     max-width:1200px;
     margin:auto;
