@@ -252,3 +252,8 @@ display:none;
 #why-me .card:hover{
     transform:translateY(-10px);
 }
+
+#why-me .section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
