@@ -238,3 +238,17 @@ display:none;
 }
 
 }
+/* Why Choose Me */
+#why-me{
+    background:#f8f9fb;
+    padding:80px 0;
+}
+
+#why-me .card{
+    text-align:center;
+    transition:0.3s;
+}
+
+#why-me .card:hover{
+    transform:translateY(-10px);
+}
