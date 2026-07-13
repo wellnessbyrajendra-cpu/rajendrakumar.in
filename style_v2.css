@@ -295,3 +295,31 @@ display:none;
     font-size:18px;
     color:white;
 }
+
+/* Testimonials */
+
+#testimonials{
+    background:#f8f9fb;
+    padding:80px 0;
+}
+
+#testimonials .section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+#testimonials .card{
+    text-align:center;
+    padding:30px;
+}
+
+#testimonials p{
+    font-style:italic;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+#testimonials h4{
+    color:#f4b400;
+    margin-bottom:10px;
+}
