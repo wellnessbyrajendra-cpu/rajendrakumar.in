@@ -257,3 +257,35 @@ display:none;
     text-align:center;
     margin-bottom:40px;
 }
+
+/* Statistics */
+
+#stats{
+    background:#0b4da2;
+    color:white;
+    padding:70px 0;
+}
+
+#stats .cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+#stats .card{
+    background:rgba(255,255,255,0.12);
+    text-align:center;
+    border-radius:15px;
+    padding:35px 20px;
+}
+
+#stats h2{
+    font-size:42px;
+    color:#ffd54f;
+    margin-bottom:10px;
+}
+
+#stats p{
+    font-size:18px;
+    color:white;
+}
