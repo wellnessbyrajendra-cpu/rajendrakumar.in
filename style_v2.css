@@ -268,7 +268,7 @@ display:none;
 
 #stats .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:25px;
 }
 
@@ -277,6 +277,12 @@ display:none;
     text-align:center;
     border-radius:15px;
     padding:35px 20px;
+
+    min-height:140px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 #stats h2{
