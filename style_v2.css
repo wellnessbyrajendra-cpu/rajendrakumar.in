@@ -136,21 +136,25 @@ nav{
 
 .about-content{
     display:flex;
-    gap:40px;
     align-items:center;
+    justify-content:center;
+    gap:40px;
     flex-wrap:wrap;
 }
 
 .about-image{
-    width:250px;
-    height:250px;
+    width:220px;
+    height:220px;
     border-radius:50%;
     object-fit:cover;
-    border:6px solid #f5c542;
+    border:5px solid #f5c542;
+    display:block;
+    margin:auto;
 }
 
 .about-text{
     flex:1;
+    min-width:300px;
 }
 
 .about-text h3{
