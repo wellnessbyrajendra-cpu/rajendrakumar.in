@@ -245,6 +245,10 @@ footer{
     margin-top:60px;
 }
 
+section{
+    scroll-margin-top:100px;
+}
+
 /* Mobile */
 
 @media(max-width:768px){
