@@ -277,10 +277,10 @@ display:none;
     margin-bottom:40px;
 }
 #why-me .cards{
-    display:grid;
-   
-    grid-template-columns:repeat(4,minmax(0,1fr));
-    gap:25px;
+    display:grid !important;
+    grid-template-columns:repeat(4,1fr) !important;
+    gap:20px !important;
+    width:100%;
 }
 
 /* Statistics */
