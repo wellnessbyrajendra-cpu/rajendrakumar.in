@@ -69,6 +69,7 @@ nav{
 /* Hero */
 
 .hero{
+    background:linear-gradient(180deg,#f8fbff 0%,#ffffff 100%);
     padding:150px 20px 80px;
     text-align:center;
 }
@@ -82,7 +83,14 @@ nav{
     box-shadow:0 10px 25px rgba(0,0,0,.20);
     margin-bottom:30px;
 }
-
+.hero-tag{
+    color:#F4B400;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
 .hero h1{
     font-size:48px;
     color:#0A2540;
