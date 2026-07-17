@@ -80,7 +80,7 @@ nav{
     border-radius:50%;
     object-fit:cover;
     border:6px solid #FFD700;
-    box-shadow:0 10px 25px rgba(0,0,0,.20);
+    box-shadow:0 15px 35px rgba(10,37,64,.25), 0 0 40px rgba(52,152,219,.25);
     margin-bottom:30px;
 }
 .hero-tag{
