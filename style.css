@@ -276,6 +276,11 @@ display:none;
     text-align:center;
     margin-bottom:40px;
 }
+#why-me .cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
 
 /* Statistics */
 
