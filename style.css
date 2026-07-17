@@ -92,8 +92,10 @@ nav{
     margin-bottom:20px;
 }
 .hero h1{
-    font-size:48px;
+    font-size:56px;
     color:#0A2540;
+    line-height:1.15;
+    margin-bottom:20px;
 }
 
 .hero h2{
