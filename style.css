@@ -32,7 +32,7 @@ nav{
     top:0;
     width:100%;
     background:linear-gradient(90deg,#0A2540,#123B72);
-    padding:15px 0;
+    padding:22px 0;
     z-index:1000;
     box-shadow:0 4px 15px rgba(0,0,0,.12);
 }
