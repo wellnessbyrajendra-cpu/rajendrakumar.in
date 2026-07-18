@@ -321,10 +321,13 @@ display:none;
 }
 
 #stats .card{
-    background:rgba(255,255,255,0.12);
+    background:rgba(255,255,255,0.15);
     text-align:center;
-    border-radius:15px;
+    border-radius:20px;
     padding:35px 20px;
+    border:1px solid rgba(255,255,255,0.15);
+    transition:all .35s ease;
+    backdrop-filter:blur(8px);
 
     min-height:140px;
     display:flex;
@@ -332,7 +335,11 @@ display:none;
     justify-content:center;
     align-items:center;
 }
-
+#stats .card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,0.22);
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
 #stats h2{
     font-size:42px;
     color:#ffd54f;
