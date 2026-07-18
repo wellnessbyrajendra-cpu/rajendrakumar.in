@@ -45,8 +45,10 @@ nav{
 
 .logo{
     color:#FFD700;
-    font-size:28px;
+    font-size:32px;
     font-weight:700;
+    letter-spacing:1px;
+    text-shadow:0 2px 8px rgba(255,215,0,.25);
 }
 
 .nav-links{
