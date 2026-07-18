@@ -193,6 +193,11 @@ nav{
 .about-text{
     flex:1;
     min-width:300px;
+    background:#ffffff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    border:1px solid rgba(10,37,64,.08);
 }
 
 .about-text h3{
