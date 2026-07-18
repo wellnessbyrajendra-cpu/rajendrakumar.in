@@ -31,10 +31,11 @@ nav{
     position:fixed;
     top:0;
     width:100%;
-    background:linear-gradient(90deg,#0A2540,#123B72);
+    background:linear-gradient(90deg,#071C3A,#0A2540,#123A6D);
     padding:22px 0;
     z-index:1000;
     box-shadow:0 4px 15px rgba(0,0,0,.12);
+    backdrop-filter:blur(10px);
 }
 
 .nav-container{
