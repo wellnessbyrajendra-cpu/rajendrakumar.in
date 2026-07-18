@@ -224,6 +224,19 @@ nav{
 .card h3{
     color:#0A2540;
     margin-bottom:15px;
+    font-size:24px;
+    font-weight:700;
+}
+.card h4{
+    color:#555;
+    font-size:18px;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.card p{
+    line-height:1.8;
+    color:#444;
 }
 
 /* Contact */
