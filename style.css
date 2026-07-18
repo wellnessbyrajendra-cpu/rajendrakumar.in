@@ -217,7 +217,8 @@ nav{
 }
 
 .card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-10px);
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
 }
 
 .card h3{
