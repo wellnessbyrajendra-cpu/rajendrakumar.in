@@ -70,6 +70,20 @@ nav{
     color:#FFD700;
     transform:translateY(-2px);
 }
+.nav-links a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:2px;
+    background:#FFD700;
+    transition:width .3s ease;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
 
 /* Hero */
 
