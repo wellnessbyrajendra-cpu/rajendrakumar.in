@@ -447,3 +447,26 @@ display:none;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 9999;
 }
+
+/* Back to Top Button */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    cursor: pointer;
+    padding: 14px 18px;
+    border-radius: 50%;
+    font-size: 22px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+    transform: translateY(-4px) scale(1.08);
+}
