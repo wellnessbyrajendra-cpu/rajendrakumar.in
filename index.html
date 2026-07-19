@@ -396,7 +396,7 @@ href="https://wa.me/919652165975"
 </footer>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <button id="backToTop" title="Go to top">↑</button>  
-    
+
 <script>
 AOS.init({
     duration: 800,
@@ -425,6 +425,19 @@ backToTop.addEventListener("click", function () {
         behavior: "smooth"
     });
 }); 
+
+// Dark Mode Toggle
+const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggle.textContent = "☀️";
+    } else {
+        themeToggle.textContent = "🌙";
+    }
+});
 </script> 
    
 </body>
