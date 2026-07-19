@@ -395,7 +395,8 @@ href="https://wa.me/919652165975"
     </div>
 </footer>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
+<button id="backToTop" title="Go to top">↑</button>  
+    
 <script>
 AOS.init({
     duration: 800,
@@ -408,8 +409,23 @@ window.addEventListener("scroll", function () {
 
     document.getElementById("progress-bar").style.width = progress + "%";
 });
-</script>
-<button id="backToTop" title="Go to top">↑</button>    
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+        backToTop.style.display = "block";
+    } else {
+        backToTop.style.display = "none";
+    }
+});
+
+backToTop.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}); 
+</script> 
    
 </body>
 </html>
